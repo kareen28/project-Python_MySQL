@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="navS.css" rel="stylesheet" />
+    <title>דף הבית</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+            ul li {
+                
+                padding: 10px;
+                margin: 15px 0;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 5px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+            nav ul li {
+                display: inline;
+            }
+
+                nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                    nav ul li a:hover {
+                        text-decoration: underline;
+                    }
+
+        strong {
+            color: #2c3e50;
+        }
+
+        a {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #333333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+            a:hover {
+                background-color: #3d5c5c;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">דף הבית</a></li>
+                <li><a href="/register">הרשמה לאתר</a></li>
+                <li><a href="/add_trip">הוסף טיול חדש</a></li>
+                <li><a href="/trip">מקומות מומלצים</a></li>
+                <li><a href="/recommended_trips">טיולים מומלצים לחו"ל</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>טיולים ששיתפו המשתמשים</h1>
+
+        <a href="/add_trip">הוסף טיול חדש</a>
+
+        <h2>הטיולים שלך:</h2>
+        <ul>
+            {% for trip in trips %}
+            <li>
+                <strong>{{ trip[1] }}</strong><br>
+                המלצה: {{ trip[2] }}<br>
+                מסעדות: {{ trip[3] }}<br>
+                פרטים: {{ trip[4] }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+</body>
+</html>

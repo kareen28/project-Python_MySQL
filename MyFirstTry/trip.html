@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>מקומות מומלצים</title>
+    <link href="navS.css" rel="stylesheet" />
+</head>
+<body>
+    <style>
+        /* Reset margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: right; /* Ensures right-to-left text alignment */
+        }
+
+        /* Navbar styling */
+        nav {
+            background-color: #333;
+            padding: 15px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+            .navbar li {
+                margin: 0 20px;
+            }
+
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+                .navbar a:hover {
+                    text-decoration: underline;
+                }
+
+        /* Main container styling */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: right; /* Right alignment for Hebrew */
+        }
+
+        /* Heading styling */
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* Recommended places list */
+        .recommended-places {
+            list-style-type: disc;
+            padding-right: 20px; /* Moves bullet points closer to text */
+            direction: rtl; /* Ensures the list behaves correctly in Hebrew */
+        }
+
+            .recommended-places li {
+                margin-bottom: 20px;
+                font-size: 18px;
+            }
+
+                /* Make text align properly with the bullets */
+                .recommended-places li strong {
+                    font-weight: bold;
+                }
+    </style>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="recommended_trips.html">טיולים מומלצים לחו"ל</a></li>
+                <li><a href="/trip">מקומות מומלצים</a></li>
+                <li><a href="/add_trip">הוסף טיול חדש</a></li>
+                <li><a href="/register">הרשמה לאתר</a></li>
+                <li><a href="/">דף הבית</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>מקומות מומלצים</h1>
+        <ul class="recommended-places">
+            <li><strong>מצדה</strong><br>אתר היסטורי מרהיב במדבר יהודה.</li>
+            <li><strong>הכנרת</strong><br>אגם מים מתוקים בצפון הארץ עם חופי רחצה מרהיבים.</li>
+            <li><strong>שמורת הבניאס</strong><br>מפל נהדר בצפון הגולן, מקום מושלם לטיול טבע.</li>
+            <li><strong>עיר דוד</strong><br>אתר ארכיאולוגי בירושלים, טיול בין שרידים עתיקים.</li>
+            <li><strong>חיפה והר הכרמל</strong><br> נוף מדהים של חיפה והים התיכון, והגנים הבהאיים המרהיבים.</li>
+            <li><strong>ראש הנקרה </strong><br> מערות גיר מדהימות ליד גבול לבנון עם רכבל ותצפית יפה על הים התיכון.</li>
+            <li><strong>ים המלח</strong><br>המקום הנמוך ביותר בעולם, עם בריכות מינרלים טבעיות וחוויה של ציפה בלתי נשכחת.</li>
+            <li><strong>הגליל העליון </strong><br>אזור ירוק עם נהרות, מסלולי הליכה ואטרקציות כמו הר מירון.</li>
+            <li><strong>תל אביב </strong><br> עיר חוף מודרנית עם חיי לילה סוערים, חופים יפים, מוזיאונים ושווקים.</li>
+            <li><strong>רמת הגולן </strong><br>אזור מציע טיולי טבע עם נופים מרהיבים, מפלים, נחלים ואתרי היסטוריה כמו גמלא.</li>
+            <li><strong>שמורת הטבע עין גדי</strong><br> שמורה מדברית עם מעיינות, מפלים ומסלולי הליכה ליד ים המלח</li>
+        </ul>
+    </div>
+</body>
+</html>

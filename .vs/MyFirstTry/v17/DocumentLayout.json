@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\MyFirstTry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C76085BB-04BD-4052-84B8-C40E195D4C56}|MyFirstTry\\MyFirstTry.pyproj|C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\trip.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C76085BB-04BD-4052-84B8-C40E195D4C56}|MyFirstTry\\MyFirstTry.pyproj|solutionrelative:MyFirstTry\\trip.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76085BB-04BD-4052-84B8-C40E195D4C56}|MyFirstTry\\MyFirstTry.pyproj|C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C76085BB-04BD-4052-84B8-C40E195D4C56}|MyFirstTry\\MyFirstTry.pyproj|solutionrelative:MyFirstTry\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76085BB-04BD-4052-84B8-C40E195D4C56}|MyFirstTry\\MyFirstTry.pyproj|C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C76085BB-04BD-4052-84B8-C40E195D4C56}|MyFirstTry\\MyFirstTry.pyproj|solutionrelative:MyFirstTry\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76085BB-04BD-4052-84B8-C40E195D4C56}|MyFirstTry\\MyFirstTry.pyproj|C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\add_trip.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C76085BB-04BD-4052-84B8-C40E195D4C56}|MyFirstTry\\MyFirstTry.pyproj|solutionrelative:MyFirstTry\\add_trip.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "register.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\register.html",
+              "RelativeDocumentMoniker": "MyFirstTry\\register.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\register.html",
+              "RelativeToolTip": "MyFirstTry\\register.html",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-21T10:28:42.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "trip.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\trip.html",
+              "RelativeDocumentMoniker": "MyFirstTry\\trip.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\trip.html",
+              "RelativeToolTip": "MyFirstTry\\trip.html",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-16T16:11:46.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "home.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\home.html",
+              "RelativeDocumentMoniker": "MyFirstTry\\home.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\home.html",
+              "RelativeToolTip": "MyFirstTry\\home.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-16T16:11:33.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "add_trip.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\add_trip.html",
+              "RelativeDocumentMoniker": "MyFirstTry\\add_trip.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\MyFirstTry\\MyFirstTry\\add_trip.html",
+              "RelativeToolTip": "MyFirstTry\\add_trip.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-16T16:11:09.669Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

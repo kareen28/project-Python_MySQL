@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="navS.css" rel="stylesheet" />
+    <title>הוסף טיול</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 5px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+            nav ul li {
+                display: inline;
+            }
+
+                nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                    nav ul li a:hover {
+                        text-decoration: underline;
+                    }
+
+        strong {
+            color: #2c3e50;
+        }
+
+        a {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #333333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+            a:hover {
+                background-color: #3d5c5c;
+            }
+       
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+        }
+
+        label {
+            font-size: 18px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">דף הבית</a></li>
+                <li><a href="/register">הרשמה לאתר</a></li>
+                <li><a href="/add_trip">הוסף טיול חדש</a></li>
+                <li><a href="/trip">מקומות מומלצים</a></li>
+                <li><a href="/recommended_trips">טיולים מומלצים לחו"ל</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>הוסף טיול</h1>
+        <form action="/add_trip" method="post">
+            <label for="location">שם המקום:</label>
+            <input type="text" name="location" required><br>
+
+            <label for="recommendation">המלצה:</label>
+            <textarea name="recommendation"></textarea><br>
+
+            <label for="restaurants">מסעדות בדרך:</label>
+            <textarea name="restaurants"></textarea><br>
+
+            <label for="details">פרטים נוספים:</label>
+            <textarea name="details"></textarea><br>
+
+            <button type="submit">הוסף טיול</button>
+        </form>
+    </div>
+
+</body>
+</html>
